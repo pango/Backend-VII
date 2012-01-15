@@ -1,0 +1,29 @@
+<h1>Listing usagerecords</h1>
+
+<table>
+  <tr>
+    <th>Browser</th>
+    <th>Language</th>
+    <th>Timestamp</th>
+    <th>Fk idhomepage</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @usagerecords.each do |usagerecord| %>
+  <tr>
+    <td><%= usagerecord.browser %></td>
+    <td><%= usagerecord.language %></td>
+    <td><%= usagerecord.timestamp %></td>
+    <td><%= usagerecord.fk_idHomepage %></td>
+    <td><%= link_to 'Show', usagerecord %></td>
+    <td><%= link_to 'Edit', edit_usagerecord_path(usagerecord) %></td>
+    <td><%= link_to 'Destroy', usagerecord, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Usagerecord', new_usagerecord_path %>

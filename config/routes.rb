@@ -1,4 +1,8 @@
 ClogsWebApp::Application.routes.draw do
+  resources :usagerecords
+
+  resources :homepages
+
   resources :events
 
   # The priority is based upon order of creation:

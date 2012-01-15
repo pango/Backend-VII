@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  browser: MyString
+  language: MyString
+  timestamp: 2012-01-15 23:07:10
+  fk_idHomepage: 1
+
+two:
+  browser: MyString
+  language: MyString
+  timestamp: 2012-01-15 23:07:10
+  fk_idHomepage: 1

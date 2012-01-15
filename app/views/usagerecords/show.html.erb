@@ -1,0 +1,25 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Browser:</b>
+  <%= @usagerecord.browser %>
+</p>
+
+<p>
+  <b>Language:</b>
+  <%= @usagerecord.language %>
+</p>
+
+<p>
+  <b>Timestamp:</b>
+  <%= @usagerecord.timestamp %>
+</p>
+
+<p>
+  <b>Fk idhomepage:</b>
+  <%= @usagerecord.fk_idHomepage %>
+</p>
+
+
+<%= link_to 'Edit', edit_usagerecord_path(@usagerecord) %> |
+<%= link_to 'Back', usagerecords_path %>

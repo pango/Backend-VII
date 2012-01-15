@@ -11,11 +11,28 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120110225640) do
+ActiveRecord::Schema.define(:version => 20120115220709) do
 
   create_table "events", :force => true do |t|
     t.string   "title"
     t.datetime "time"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "homepages", :force => true do |t|
+    t.string   "url"
+    t.string   "name"
+    t.string   "beschreibung"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "usagerecords", :force => true do |t|
+    t.string   "browser"
+    t.string   "language"
+    t.datetime "timestamp"
+    t.integer  "fk_idHomepage"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

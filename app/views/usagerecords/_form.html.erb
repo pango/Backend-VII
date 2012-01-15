@@ -1,0 +1,33 @@
+<%= form_for(@usagerecord) do |f| %>
+  <% if @usagerecord.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@usagerecord.errors.count, "error") %> prohibited this usagerecord from being saved:</h2>
+
+      <ul>
+      <% @usagerecord.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :browser %><br />
+    <%= f.text_field :browser %>
+  </div>
+  <div class="field">
+    <%= f.label :language %><br />
+    <%= f.text_field :language %>
+  </div>
+  <div class="field">
+    <%= f.label :timestamp %><br />
+    <%= f.datetime_select :timestamp %>
+  </div>
+  <div class="field">
+    <%= f.label :fk_idHomepage %><br />
+    <%= f.number_field :fk_idHomepage %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
