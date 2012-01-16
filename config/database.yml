@@ -40,6 +40,6 @@ production:
   database: clogs_web_app_production
   pool: 5
   username: root
-  password:
+  password: 123dev
   host: localhost
   port: 3308

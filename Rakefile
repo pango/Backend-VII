@@ -4,4 +4,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-ClogsWebApp::Application.load_tasks
+BackendVII::Application.load_tasks
