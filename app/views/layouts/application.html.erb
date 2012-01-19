@@ -1,14 +1,106 @@
-<!DOCTYPE html>
-<html>
+﻿<!DOCTYPE html>
+<html class="cufon-active cufon-ready">
 <head>
   <title>BackendVII</title>
-  <%= stylesheet_link_tag "ext-all" %>
-  <%= javascript_include_tag "ext-debug" %> 
+  <%= stylesheet_link_tag "print", "screen", "site.8" %>
+  <%= javascript_include_tag "Myriad_400-Myriad_600.font", "cufon-yui.2" %> 
   <%= csrf_meta_tags %>
 </head>
+
 <body>
 
-<%= yield %>
+<div id="page-sub">
+  
+  <div id="header" class="container"> 
+  <div id="logo" class="span-10"> 
+    <h1><a href="/" title="Home"><cufon class="cufon cufon-canvas" alt="Backend-VII " style="width: 203px; height: 36px; "><canvas width="229" height="37" style="width: 229px; height: 37px; top: 0px; left: -2px; "></canvas><cufontext>Backend-VII </cufontext></cufon><span></span></a></h1> 
+  </div> 
+  <div class="span-14 last"> 
+	<ul id="navbar">
+	</ul>
+  </div>
+</div>
+  
+    <div id="graphic_sub" class="container clear">
+  <div class="span-15">
+    <h1><cufon class="cufon cufon-canvas" alt="Add-ons" style="width: 121px; height: 33px; "><canvas width="139" height="34" style="width: 139px; height: 34px; top: 0px; left: -1px; "></canvas><cufontext>Add-ons</cufontext></cufon></h1>
+  </div>
+  <div class="span-9 last"> </div>
+</div>
+  
+<div id="main" class="container clear">
+	<div class="span-7">
+	  <div id="left_content_sub">
+		<ul id="subnavbar">
+		  <li><a href="/homepages/">Seiten Erfassen</a></li>
+		  <li><a href="/usagerecords/">Usage Eintragen</a></li>
+		  <li><a href="/events/">Event anlegen</a></li>
+		</ul>
+	  </div>
+	</div>
+
+
+   
+    <div class="span-17 last">
+      <div id="right_content_sub">
+        <h2>
+			
+				<%= yield %>
+			
+		</h2>
+
+
+
+
+
+      </div>
+    </div>
+
+<!--
+        <div id="fastbar" class="span-24 last">
+      <div class="fastlink span-8">
+        
+      </div>
+
+      <div id="download" class="fastlink span-8">
+        <h3> <a href="http://rubyforge.org/frs/?group_id=167">Download</a></h3>
+        <p>I want to download newest version.</p>
+      </div>
+
+      <div id="questions" class="fastlink span-8 last">
+        <h3><a href="http://groups.google.com/group/rubyinstaller">Get Help</a></h3>
+        <p>How do I...?</p>
+      </div>
+
+    </div>
+-->
+
+  </div>
+
+  <div id="footer" class="container clear">
+  <div class="span-4">
+    <ul>
+      <li><strong>Backend-VII</strong></li>
+      <li><a href="/about/">About</a></li>
+	  <li><a href="/blog/">Blog</a></li>
+      <li><a href="/news/">News</a></li>
+      <li><a href="/downloads/">Download</a></li>
+    </ul>
+  </div>
+  <div class="span-4">
+    <ul>
+      <li><strong>Developers</strong></li>
+      <li><a href="http://github.com/oneclick/rubyinstaller/issues">Report a bug</a></li>
+      <li><a href="http://github.com/oneclick/rubyinstaller/issues">Request a feature</a></li>
+    </ul>
+  </div>
+  <div id="copyright" class="span-12 last">
+    Copyright 2012 Michael Schröder
+  </div> 
+</div>
+   
+</div>
+
 
 </body>
 </html>

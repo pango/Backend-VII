@@ -8,17 +8,29 @@
 #
 # And be sure to use new-style password hashing:
 #   http://dev.mysql.com/doc/refman/5.0/en/old-client.html
+
+# development-backup:
+  # adapter: mysql2
+  # encoding: utf8
+  # reconnect: false
+  # database: clogs_web_app_development
+  # pool: 5
+  # username: root
+  # password: 123dev
+  # host: localhost
+  # port: 3308
+  
 development:
   adapter: mysql2
   encoding: utf8
   reconnect: false
-  database: clogs_web_app_development
+  database: webshop
   pool: 5
-  username: root
-  password: 123dev
-  host: localhost
-  port: 3308
-
+  username: Webshop
+  password: Ko3j4ack
+  host: mysql.area-34.server-home.net
+  port: 3306
+  
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
