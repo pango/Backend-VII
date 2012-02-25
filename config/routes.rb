@@ -5,6 +5,12 @@ BackendVII::Application.routes.draw do
 
   resources :events
 
+  post '/senddata' => 'foocontroller#getdata'
+
+  post '/newevent' => 'eventcontroller#create', :time => "2012-12-12T07:54:00Z", :title => "defaultvalue"
+  
+  resources :webcalls
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -24,6 +24,7 @@ class EventsController < ApplicationController
   # GET /events/new
   # GET /events/new.json
   def new
+    logger.debug "Action New im Controller ausgeführt"
     @event = Event.new
 
     respond_to do |format|
@@ -40,7 +41,9 @@ class EventsController < ApplicationController
   # POST /events
   # POST /events.json
   def create
+    logger.debug "Action Create im Controller ausgeführt"
     @event = Event.new(params[:event])
+    logger.debug "Event mit folgenden Params angelegt: " + params[:event].to_s
 
     respond_to do |format|
       if @event.save
