@@ -2,6 +2,8 @@
 
 <%= javascript_include_tag 'jquery-1.7.1' %>
 
+<div id="example"></div>
+
 <script type="text/javascript">
 
 txt = "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
@@ -13,6 +15,19 @@ txt+= "<p>User-agent header: " + navigator.userAgent + "</p>";
 
 document.getElementById("example").innerHTML=txt;
 
+
+
+$.ajax({
+  type: 'POST',
+  url: 'http://localhost:3000/usagerecords',
+  data: {usagerecord: {browser: navigator.appCodeName, language: navigator.language, fk_idHomepage: "3", timestamp: Date() }},
+  success: document.getElementById("example").innerHTML='Deine Browser Daten wurden erfoglreich als Usage Record gepostet.',
+  //error: document.getElementById("example").innerHTML='Es gab einen Fehler beim Versuch deine Daten zu posten',
+  dataType: 'json'
+});
+
+
+/* Homepage: document.baseURI */
 </script>
 
 

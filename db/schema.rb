@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120115220709) do
+ActiveRecord::Schema.define(:version => 20120226210824) do
 
   create_table "artikel", :force => true do |t|
     t.string  "Bezeichnung"
@@ -171,6 +171,7 @@ ActiveRecord::Schema.define(:version => 20120115220709) do
     t.integer  "fk_idHomepage"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "homepage_id"
   end
 
   create_table "warenkorb", :force => true do |t|

@@ -18116,3 +18116,998 @@ ActionController::RoutingError (uninitialized constant EventcontrollerController
   
 
 Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (19.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-26 14:44:31 +0100
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (50.8ms)
+Completed 200 OK in 442ms (Views: 442.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 14:44:35 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 14:44:35 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 14:44:36 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 14:44:36 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 14:44:36 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 14:44:36 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 14:44:36 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/BackendVII.js?body=1" for 127.0.0.1 at 2012-02-26 14:44:36 +0100
+Served asset /BackendVII.js - 304 Not Modified (0ms)
+
+
+Started GET "/webcalls/" for 127.0.0.1 at 2012-02-26 14:44:38 +0100
+  Processing by WebcallsController#index as HTML
+Rendered webcalls/index.html.erb within layouts/application (109.4ms)
+Completed 200 OK in 146ms (Views: 144.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 14:44:39 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 14:44:39 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 14:44:40 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 14:44:40 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 14:44:40 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 14:44:40 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 14:44:40 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.7.1?body=1" for 127.0.0.1 at 2012-02-26 14:44:40 +0100
+Served asset /jquery-1.7.1 - 304 Not Modified (0ms)
+
+
+Started POST "/senddata" for 127.0.0.1 at 2012-02-26 14:45:51 +0100
+Error occurred while parsing request parameters.
+Contents:
+
+
+MultiJson::DecodeError (756: unexpected token at 'foo=afoo&bar=abar'):
+  
+
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2012-02-26 14:49:33 +0100
+
+ArgumentError (missing :controller):
+  config/routes.rb:8:in `block in <top (required)>'
+  config/routes.rb:1:in `<top (required)>'
+
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.8ms)
+
+
+Started GET "/events.json" for 127.0.0.1 at 2012-02-26 14:49:38 +0100
+  Processing by EventsController#index as JSON
+  [1m[36mEvent Load (37.1ms)[0m  [1mSELECT `events`.* FROM `events` [0m
+Completed 200 OK in 133ms (Views: 16.6ms | ActiveRecord: 114.3ms)
+
+
+Started GET "/events/" for 127.0.0.1 at 2012-02-26 14:49:59 +0100
+  Processing by EventsController#index as HTML
+  [1m[35mEvent Load (37.1ms)[0m  SELECT `events`.* FROM `events` 
+Rendered events/index.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 191ms (Views: 35.2ms | ActiveRecord: 154.3ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 14:50:00 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 14:50:00 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 14:50:00 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 14:50:00 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 14:50:00 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 14:50:00 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 14:50:00 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/events/2.json" for 127.0.0.1 at 2012-02-26 14:51:26 +0100
+  Processing by EventsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mEvent Load (38.1ms)[0m  [1mSELECT `events`.* FROM `events` WHERE `events`.`id` = 2 LIMIT 1[0m
+Completed 200 OK in 161ms (Views: 5.9ms | ActiveRecord: 153.3ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2012-02-26 14:54:10 +0100
+  Processing by EventsController#new as HTML
+Action New im Controller ausgeführt
+Rendered events/_form.html.erb (95.7ms)
+Rendered events/new.html.erb within layouts/application (128.9ms)
+Completed 200 OK in 146ms (Views: 69.3ms | ActiveRecord: 76.2ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 14:54:10 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 14:54:10 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 14:54:10 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 14:54:10 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 14:54:10 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 14:54:10 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 14:54:11 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2012-02-26 14:54:31 +0100
+  Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yjo/KlFhoWwmykLIyMWPC2RyvdfYJGE5CaY9T1UxfD8=", "event"=>{"title"=>"my event", "time(1i)"=>"2012", "time(2i)"=>"2", "time(3i)"=>"26", "time(4i)"=>"13", "time(5i)"=>"54"}, "commit"=>"Create Event"}
+Action Create im Controller ausgeführt
+Event mit folgenden Params angelegt: {"title"=>"my event", "time(1i)"=>"2012", "time(2i)"=>"2", "time(3i)"=>"26", "time(4i)"=>"13", "time(5i)"=>"54"}
+  [1m[35m (36.1ms)[0m  BEGIN
+  [1m[36mSQL (37.1ms)[0m  [1mINSERT INTO `events` (`created_at`, `time`, `title`, `updated_at`) VALUES ('2012-02-26 13:54:31', '2012-02-26 13:54:00', 'my event', '2012-02-26 13:54:31')[0m
+  [1m[35m (84.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/events/8
+Completed 302 Found in 274ms
+
+
+Started GET "/events/8" for 127.0.0.1 at 2012-02-26 14:54:31 +0100
+  Processing by EventsController#show as HTML
+  Parameters: {"id"=>"8"}
+  [1m[36mEvent Load (36.1ms)[0m  [1mSELECT `events`.* FROM `events` WHERE `events`.`id` = 8 LIMIT 1[0m
+Rendered events/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 194ms (Views: 40.0ms | ActiveRecord: 149.4ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 14:54:32 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 14:54:32 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 14:54:32 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 14:54:32 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 14:54:32 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 14:54:32 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 14:54:32 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2012-02-26 15:04:24 +0100
+  Processing by WelcomeController#index as HTML
+Rendered welcome/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:04:24 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:04:24 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:04:24 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:04:24 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:04:24 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:04:25 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:04:25 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/BackendVII.js?body=1" for 127.0.0.1 at 2012-02-26 15:04:25 +0100
+Served asset /BackendVII.js - 304 Not Modified (0ms)
+
+
+Started GET "/webcalls/" for 127.0.0.1 at 2012-02-26 15:04:26 +0100
+  Processing by WebcallsController#index as HTML
+Rendered webcalls/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:04:27 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:04:27 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:04:27 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:04:27 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:04:27 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:04:27 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:04:27 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.7.1?body=1" for 127.0.0.1 at 2012-02-26 15:04:27 +0100
+Served asset /jquery-1.7.1 - 304 Not Modified (0ms)
+
+
+Started GET "/events.json" for 127.0.0.1 at 2012-02-26 15:20:23 +0100
+  Processing by EventsController#index as JSON
+  [1m[35mEvent Load (38.1ms)[0m  SELECT `events`.* FROM `events` 
+Completed 200 OK in 164ms (Views: 7.8ms | ActiveRecord: 154.3ms)
+
+
+Started GET "/event/1.json" for 127.0.0.1 at 2012-02-26 15:20:53 +0100
+
+ActionController::RoutingError (No route matches [GET] "/event/1.json"):
+  
+
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/events/1.json" for 127.0.0.1 at 2012-02-26 15:20:58 +0100
+  Processing by EventsController#show as JSON
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (37.1ms)[0m  [1mSELECT `events`.* FROM `events` WHERE `events`.`id` = 1 LIMIT 1[0m
+Completed 404 Not Found in 154ms
+
+ActiveRecord::RecordNotFound (Couldn't find Event with id=1):
+  app/controllers/events_controller.rb:16:in `show'
+
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+Rendered C:/Ruby193/lib/ruby/gems/1.9.1/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.8ms)
+
+
+Started GET "/events/2.json" for 127.0.0.1 at 2012-02-26 15:21:05 +0100
+  Processing by EventsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[35mEvent Load (37.1ms)[0m  SELECT `events`.* FROM `events` WHERE `events`.`id` = 2 LIMIT 1
+Completed 200 OK in 160ms (Views: 5.9ms | ActiveRecord: 151.4ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2012-02-26 15:24:45 +0100
+  Processing by EventsController#create as HTML
+  Parameters: {"title"=>"my event", "time"=>"2012-01-23T07:54:00Z"}
+WARNING: Can't verify CSRF token authenticity
+Action Create im Controller ausgeführt
+Event mit folgenden Params angelegt: 
+  [1m[36m (37.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `events` (`created_at`, `time`, `title`, `updated_at`) VALUES ('2012-02-26 14:24:46', NULL, NULL, '2012-02-26 14:24:46')
+  [1m[36m (79.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/events/9
+Completed 302 Found in 237ms
+
+
+Started GET "/events/9" for 127.0.0.1 at 2012-02-26 15:24:46 +0100
+  Processing by EventsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[35mEvent Load (37.1ms)[0m  SELECT `events`.* FROM `events` WHERE `events`.`id` = 9 LIMIT 1
+Rendered events/show.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 176ms (Views: 22.5ms | ActiveRecord: 152.3ms)
+
+
+Started GET "/events.json" for 127.0.0.1 at 2012-02-26 15:24:53 +0100
+  Processing by EventsController#index as JSON
+  [1m[36mEvent Load (38.1ms)[0m  [1mSELECT `events`.* FROM `events` [0m
+Completed 200 OK in 162ms (Views: 7.8ms | ActiveRecord: 152.3ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2012-02-26 15:25:26 +0100
+  Processing by EventsController#create as HTML
+  Parameters: {"title"=>"supa event", "time"=>"2012-01-23T07:54:00Z"}
+WARNING: Can't verify CSRF token authenticity
+Action Create im Controller ausgeführt
+Event mit folgenden Params angelegt: 
+  [1m[35m (36.1ms)[0m  BEGIN
+  [1m[36mSQL (37.1ms)[0m  [1mINSERT INTO `events` (`created_at`, `time`, `title`, `updated_at`) VALUES ('2012-02-26 14:25:26', NULL, NULL, '2012-02-26 14:25:26')[0m
+  [1m[35m (429.7ms)[0m  COMMIT
+Redirected to http://localhost:3000/events/10
+Completed 302 Found in 585ms
+
+
+Started GET "/events/10" for 127.0.0.1 at 2012-02-26 15:25:27 +0100
+  Processing by EventsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mEvent Load (37.1ms)[0m  [1mSELECT `events`.* FROM `events` WHERE `events`.`id` = 10 LIMIT 1[0m
+Rendered events/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 173ms (Views: 19.5ms | ActiveRecord: 152.3ms)
+
+
+Started GET "/events.json" for 127.0.0.1 at 2012-02-26 15:25:29 +0100
+  Processing by EventsController#index as JSON
+  [1m[35mEvent Load (39.1ms)[0m  SELECT `events`.* FROM `events` 
+Completed 200 OK in 164ms (Views: 7.8ms | ActiveRecord: 153.3ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2012-02-26 15:26:03 +0100
+  Processing by EventsController#create as JSON
+  Parameters: {"title"=>"supa event", "time"=>"2012-01-23T07:54:00Z"}
+WARNING: Can't verify CSRF token authenticity
+Action Create im Controller ausgeführt
+Event mit folgenden Params angelegt: 
+  [1m[36m (37.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `events` (`created_at`, `time`, `title`, `updated_at`) VALUES ('2012-02-26 14:26:03', NULL, NULL, '2012-02-26 14:26:03')
+  [1m[36m (153.3ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 312ms (Views: 3.9ms | ActiveRecord: 303.7ms)
+
+
+Started GET "/events.json" for 127.0.0.1 at 2012-02-26 15:26:07 +0100
+  Processing by EventsController#index as JSON
+  [1m[35mEvent Load (37.1ms)[0m  SELECT `events`.* FROM `events` 
+Completed 200 OK in 162ms (Views: 8.8ms | ActiveRecord: 151.4ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2012-02-26 15:26:36 +0100
+  Processing by EventsController#create as JSON
+  Parameters: {"title"=>"supa json event", "time"=>"2012-01-23T07:54:00Z"}
+WARNING: Can't verify CSRF token authenticity
+Action Create im Controller ausgeführt
+Event mit folgenden Params angelegt: 
+  [1m[36m (36.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `events` (`created_at`, `time`, `title`, `updated_at`) VALUES ('2012-02-26 14:26:36', NULL, NULL, '2012-02-26 14:26:36')
+  [1m[36m (80.1ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 239ms (Views: 2.9ms | ActiveRecord: 229.5ms)
+
+
+Started GET "/events.json" for 127.0.0.1 at 2012-02-26 15:26:39 +0100
+  Processing by EventsController#index as JSON
+  [1m[35mEvent Load (38.1ms)[0m  SELECT `events`.* FROM `events` 
+Completed 200 OK in 162ms (Views: 8.8ms | ActiveRecord: 152.3ms)
+
+
+Started GET "/homepages/" for 127.0.0.1 at 2012-02-26 15:26:56 +0100
+  Processing by HomepagesController#index as HTML
+  [1m[36mHomepage Load (38.1ms)[0m  [1mSELECT `homepages`.* FROM `homepages` [0m
+Rendered homepages/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 141ms (Views: 25.4ms | ActiveRecord: 113.3ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:26:57 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:26:57 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:26:57 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:26:57 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:26:57 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:26:57 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:26:57 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/usagerecords/" for 127.0.0.1 at 2012-02-26 15:26:58 +0100
+  Processing by UsagerecordsController#index as HTML
+  [1m[35mUsagerecord Load (37.1ms)[0m  SELECT `usagerecords`.* FROM `usagerecords` 
+Rendered usagerecords/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 139ms (Views: 23.4ms | ActiveRecord: 113.3ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:26:59 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:26:59 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:26:59 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:26:59 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:26:59 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:26:59 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:26:59 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/usagerecords/new" for 127.0.0.1 at 2012-02-26 15:27:02 +0100
+  Processing by UsagerecordsController#new as HTML
+Rendered usagerecords/_form.html.erb (88.9ms)
+Rendered usagerecords/new.html.erb within layouts/application (110.4ms)
+Completed 200 OK in 128ms (Views: 50.8ms | ActiveRecord: 76.2ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:27:02 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:27:03 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:27:03 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:27:03 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:27:03 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:27:03 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:27:03 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:27:25 +0100
+  Processing by UsagerecordsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LbrGIBMQqil83ADqqdy15E4TssO5XSYhkcXdxJQa6VE=", "usagerecord"=>{"browser"=>"chrome 10 ", "language"=>"de", "timestamp(1i)"=>"2012", "timestamp(2i)"=>"2", "timestamp(3i)"=>"26", "timestamp(4i)"=>"14", "timestamp(5i)"=>"27", "fk_idHomepage"=>"1"}, "commit"=>"Create Usagerecord"}
+  [1m[36m (37.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES ('chrome 10 ', '2012-02-26 14:27:25', 1, 'de', '2012-02-26 14:27:00', '2012-02-26 14:27:25')
+  [1m[36m (78.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/usagerecords/3
+Completed 302 Found in 237ms
+
+
+Started GET "/usagerecords/3" for 127.0.0.1 at 2012-02-26 15:27:25 +0100
+  Processing by UsagerecordsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mUsagerecord Load (38.1ms)[0m  SELECT `usagerecords`.* FROM `usagerecords` WHERE `usagerecords`.`id` = 3 LIMIT 1
+Rendered usagerecords/show.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 198ms (Views: 43.0ms | ActiveRecord: 153.3ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:27:25 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:27:25 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:27:26 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:27:26 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:27:26 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:27:26 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:27:26 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:30:09 +0100
+  Processing by UsagerecordsController#create as JSON
+WARNING: Can't verify CSRF token authenticity
+  [1m[36m (36.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES (NULL, '2012-02-26 14:30:09', NULL, NULL, NULL, '2012-02-26 14:30:09')
+  [1m[36m (78.1ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 239ms (Views: 2.9ms | ActiveRecord: 227.5ms)
+
+
+Started GET "/usagerecords.json" for 127.0.0.1 at 2012-02-26 15:30:20 +0100
+  Processing by UsagerecordsController#index as JSON
+  [1m[35mUsagerecord Load (37.1ms)[0m  SELECT `usagerecords`.* FROM `usagerecords` 
+Completed 200 OK in 162ms (Views: 8.8ms | ActiveRecord: 152.3ms)
+
+
+Started GET "/usagerecords.json" for 127.0.0.1 at 2012-02-26 15:30:46 +0100
+  Processing by UsagerecordsController#index as JSON
+  [1m[36mUsagerecord Load (37.1ms)[0m  [1mSELECT `usagerecords`.* FROM `usagerecords` [0m
+Completed 200 OK in 162ms (Views: 8.8ms | ActiveRecord: 151.4ms)
+
+
+Started GET "/events.json" for 127.0.0.1 at 2012-02-26 15:31:03 +0100
+  Processing by EventsController#index as JSON
+  [1m[35mEvent Load (38.1ms)[0m  SELECT `events`.* FROM `events` 
+Completed 200 OK in 170ms (Views: 8.8ms | ActiveRecord: 159.2ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:32:10 +0100
+  Processing by UsagerecordsController#create as JSON
+  Parameters: {"browser"=>"chrome 10"}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36m (40.0ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (36.1ms)[0m  INSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES (NULL, '2012-02-26 14:32:10', NULL, NULL, NULL, '2012-02-26 14:32:10')
+  [1m[36m (75.2ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 238ms (Views: 3.9ms | ActiveRecord: 227.5ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:34:02 +0100
+  Processing by UsagerecordsController#create as JSON
+  Parameters: {"usagerecord"=>{"browser"=>"chrome 10"}}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35m (37.1ms)[0m  BEGIN
+  [1m[36mSQL (37.1ms)[0m  [1mINSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES ('chrome 10', '2012-02-26 14:34:03', NULL, NULL, NULL, '2012-02-26 14:34:03')[0m
+  [1m[35m (92.8ms)[0m  COMMIT
+Completed 201 Created in 254ms (Views: 2.9ms | ActiveRecord: 243.2ms)
+
+
+Started GET "/usagerecords.json" for 127.0.0.1 at 2012-02-26 15:34:17 +0100
+  Processing by UsagerecordsController#index as JSON
+  [1m[36mUsagerecord Load (37.1ms)[0m  [1mSELECT `usagerecords`.* FROM `usagerecords` [0m
+Completed 200 OK in 155ms (Views: 1.0ms | ActiveRecord: 152.3ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:36:13 +0100
+  Processing by UsagerecordsController#create as JSON
+  Parameters: {"usagerecord"=>{"browser"=>"chrome 10", "language"=>"de"}}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35m (37.1ms)[0m  BEGIN
+  [1m[36mSQL (36.1ms)[0m  [1mINSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES ('chrome 10', '2012-02-26 14:36:13', NULL, 'de', NULL, '2012-02-26 14:36:13')[0m
+  [1m[35m (82.0ms)[0m  COMMIT
+Completed 201 Created in 243ms (Views: 2.9ms | ActiveRecord: 230.5ms)
+
+
+Started GET "/usagerecords.json" for 127.0.0.1 at 2012-02-26 15:36:17 +0100
+  Processing by UsagerecordsController#index as JSON
+  [1m[36mUsagerecord Load (48.8ms)[0m  [1mSELECT `usagerecords`.* FROM `usagerecords` [0m
+Completed 200 OK in 172ms (Views: 9.8ms | ActiveRecord: 161.1ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:38:59 +0100
+  Processing by UsagerecordsController#create as JSON
+  Parameters: {"usagerecord"=>{"browser"=>"chrome 10", "language"=>"de", "fk_idHomepage"=>"3", "timestamp"=>"2012-02-26T15:38:00Z"}}
+WARNING: Can't verify CSRF token authenticity
+  [1m[35m (37.1ms)[0m  BEGIN
+  [1m[36mSQL (37.1ms)[0m  [1mINSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES ('chrome 10', '2012-02-26 14:39:00', 3, 'de', '2012-02-26 15:38:00', '2012-02-26 14:39:00')[0m
+  [1m[35m (94.7ms)[0m  COMMIT
+Completed 201 Created in 274ms (Views: 3.9ms | ActiveRecord: 245.1ms)
+
+
+Started GET "/usagerecords.json" for 127.0.0.1 at 2012-02-26 15:39:02 +0100
+  Processing by UsagerecordsController#index as JSON
+  [1m[36mUsagerecord Load (38.1ms)[0m  [1mSELECT `usagerecords`.* FROM `usagerecords` [0m
+Completed 200 OK in 164ms (Views: 9.8ms | ActiveRecord: 152.3ms)
+
+
+Started GET "/usagerecords/" for 127.0.0.1 at 2012-02-26 15:39:24 +0100
+  Processing by UsagerecordsController#index as HTML
+  [1m[35mUsagerecord Load (38.1ms)[0m  SELECT `usagerecords`.* FROM `usagerecords` 
+Rendered usagerecords/index.html.erb within layouts/application (34.2ms)
+Completed 200 OK in 207ms (Views: 51.8ms | ActiveRecord: 152.3ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:39:25 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:39:25 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:39:25 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:39:25 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:39:25 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:39:25 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:39:25 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/webcalls/" for 127.0.0.1 at 2012-02-26 15:42:45 +0100
+  Processing by WebcallsController#index as HTML
+Rendered webcalls/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:42:45 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:42:45 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:42:45 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:42:45 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:42:45 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:42:45 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:42:45 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.7.1?body=1" for 127.0.0.1 at 2012-02-26 15:42:45 +0100
+Served asset /jquery-1.7.1 - 304 Not Modified (0ms)
+
+
+Started GET "/webcalls/" for 127.0.0.1 at 2012-02-26 15:53:41 +0100
+  Processing by WebcallsController#index as HTML
+Rendered webcalls/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 18ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:53:41 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:53:41 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:53:41 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:53:41 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:53:41 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:53:41 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:53:41 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.7.1?body=1" for 127.0.0.1 at 2012-02-26 15:53:41 +0100
+Served asset /jquery-1.7.1 - 304 Not Modified (0ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:53:43 +0100
+  Processing by UsagerecordsController#create as JSON
+  Parameters: {"usagerecord"=>{"browser"=>"Mozilla", "language"=>"de", "fk_idHomepage"=>"3", "timestamp"=>"Sun Feb 26 2012 15:53:41 GMT+0100 (Mitteleuropäische Zeit)"}}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36m (37.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES ('Mozilla', '2012-02-26 14:53:44', 3, 'de', '2012-02-26 14:53:41', '2012-02-26 14:53:44')
+  [1m[36m (216.8ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 380ms (Views: 3.9ms | ActiveRecord: 367.2ms)
+
+
+Started GET "/usagerecords.json" for 127.0.0.1 at 2012-02-26 15:53:52 +0100
+  Processing by UsagerecordsController#index as JSON
+  [1m[35mUsagerecord Load (37.1ms)[0m  SELECT `usagerecords`.* FROM `usagerecords` 
+Completed 200 OK in 157ms (Views: 2.0ms | ActiveRecord: 152.3ms)
+
+
+Started GET "/webcalls/" for 127.0.0.1 at 2012-02-26 15:56:52 +0100
+  Processing by WebcallsController#index as HTML
+Rendered webcalls/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:56:52 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:56:52 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:56:52 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:56:52 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:56:52 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:56:52 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:56:52 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.7.1?body=1" for 127.0.0.1 at 2012-02-26 15:56:52 +0100
+Served asset /jquery-1.7.1 - 304 Not Modified (0ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:56:53 +0100
+  Processing by UsagerecordsController#create as JSON
+  Parameters: {"usagerecord"=>{"browser"=>"Mozilla", "language"=>"de", "fk_idHomepage"=>"3", "timestamp"=>"Sun Feb 26 2012 15:56:52 GMT+0100 (Mitteleuropäische Zeit)"}}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36m (36.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES ('Mozilla', '2012-02-26 14:56:53', 3, 'de', '2012-02-26 14:56:52', '2012-02-26 14:56:53')
+  [1m[36m (89.8ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 250ms (Views: 2.9ms | ActiveRecord: 239.3ms)
+
+
+Started GET "/usagerecords.json" for 127.0.0.1 at 2012-02-26 15:57:00 +0100
+  Processing by UsagerecordsController#index as JSON
+  [1m[35mUsagerecord Load (38.1ms)[0m  SELECT `usagerecords`.* FROM `usagerecords` 
+Completed 200 OK in 163ms (Views: 9.8ms | ActiveRecord: 152.3ms)
+
+
+Started GET "/webcalls/" for 127.0.0.1 at 2012-02-26 15:57:04 +0100
+  Processing by WebcallsController#index as HTML
+Rendered webcalls/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:57:04 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:57:04 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:57:04 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:57:04 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:57:04 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:57:04 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:57:05 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.7.1?body=1" for 127.0.0.1 at 2012-02-26 15:57:05 +0100
+Served asset /jquery-1.7.1 - 304 Not Modified (0ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:57:05 +0100
+  Processing by UsagerecordsController#create as JSON
+  Parameters: {"usagerecord"=>{"browser"=>"Mozilla", "language"=>"de", "fk_idHomepage"=>"3", "timestamp"=>"Sun Feb 26 2012 15:57:05 GMT+0100 (Mitteleuropäische Zeit)"}}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36m (37.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES ('Mozilla', '2012-02-26 14:57:05', 3, 'de', '2012-02-26 14:57:05', '2012-02-26 14:57:05')
+  [1m[36m (83.0ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 244ms (Views: 3.9ms | ActiveRecord: 233.4ms)
+
+
+Started GET "/usagerecords.json" for 127.0.0.1 at 2012-02-26 15:57:08 +0100
+  Processing by UsagerecordsController#index as JSON
+  [1m[35mUsagerecord Load (37.1ms)[0m  SELECT `usagerecords`.* FROM `usagerecords` 
+Completed 200 OK in 164ms (Views: 9.8ms | ActiveRecord: 151.4ms)
+
+
+Started GET "/webcalls/" for 127.0.0.1 at 2012-02-26 15:58:34 +0100
+  Processing by WebcallsController#index as HTML
+Rendered webcalls/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 34ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:58:34 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:58:34 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:58:34 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:58:34 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:58:34 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:58:34 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:58:34 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-1.7.1?body=1" for 127.0.0.1 at 2012-02-26 15:58:34 +0100
+Served asset /jquery-1.7.1 - 304 Not Modified (0ms)
+
+
+Started POST "/usagerecords" for 127.0.0.1 at 2012-02-26 15:58:35 +0100
+  Processing by UsagerecordsController#create as JSON
+  Parameters: {"usagerecord"=>{"browser"=>"Mozilla", "language"=>"de", "fk_idHomepage"=>"3", "timestamp"=>"Sun Feb 26 2012 15:58:34 GMT+0100 (Mitteleuropäische Zeit)"}}
+WARNING: Can't verify CSRF token authenticity
+  [1m[36m (36.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (37.1ms)[0m  INSERT INTO `usagerecords` (`browser`, `created_at`, `fk_idHomepage`, `language`, `timestamp`, `updated_at`) VALUES ('Mozilla', '2012-02-26 14:58:35', 3, 'de', '2012-02-26 14:58:34', '2012-02-26 14:58:35')
+  [1m[36m (104.5ms)[0m  [1mCOMMIT[0m
+Completed 201 Created in 268ms (Views: 3.9ms | ActiveRecord: 253.9ms)
+
+
+Started GET "/usagerecords/" for 127.0.0.1 at 2012-02-26 15:58:44 +0100
+  Processing by UsagerecordsController#index as HTML
+  [1m[35mUsagerecord Load (37.1ms)[0m  SELECT `usagerecords`.* FROM `usagerecords` 
+Rendered usagerecords/index.html.erb within layouts/application (19.5ms)
+Completed 200 OK in 189ms (Views: 35.2ms | ActiveRecord: 151.4ms)
+
+
+Started GET "/assets/site.8?body=1" for 127.0.0.1 at 2012-02-26 15:58:44 +0100
+Served asset /site.8 - 304 Not Modified (0ms)
+
+
+Started GET "/assets/print.css?body=1" for 127.0.0.1 at 2012-02-26 15:58:44 +0100
+Served asset /print.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/screen.css?body=1" for 127.0.0.1 at 2012-02-26 15:58:44 +0100
+Served asset /screen.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.js?body=1" for 127.0.0.1 at 2012-02-26 15:58:44 +0100
+Served asset /rails.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/Myriad_400-Myriad_600.font?body=1" for 127.0.0.1 at 2012-02-26 15:58:44 +0100
+Served asset /Myriad_400-Myriad_600.font - 304 Not Modified (0ms)
+
+
+Started GET "/assets/prototype.js?body=1" for 127.0.0.1 at 2012-02-26 15:58:44 +0100
+Served asset /prototype.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.2?body=1" for 127.0.0.1 at 2012-02-26 15:58:45 +0100
+Served asset /cufon-yui.2 - 304 Not Modified (0ms)
+  [1m[36m (37.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateEvents (20120110225640)
+Migrating to CreateHomepages (20120115220156)
+Migrating to CreateUsagerecords (20120115220709)
+Migrating to AddHomepageIdColumn (20120226210824)
+  [1m[35m (328.1ms)[0m  ALTER TABLE `usagerecords` ADD `homepage_id` int(11)
+  [1m[36m (245.1ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120226210824')[0m
+  [1m[35m (36.1ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
