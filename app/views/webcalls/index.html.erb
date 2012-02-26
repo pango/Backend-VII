@@ -1,26 +1,20 @@
 <h1>This page is a Webcall </h1>
 
 <%= javascript_include_tag 'jquery-1.7.1' %>
+<%= javascript_include_tag 'identify-browser' %>
 
 <div id="example"></div>
+<div id="browsertyp"></div>
 
 <script type="text/javascript">
 
-txt = "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
-txt+= "<p>Browser Name: " + navigator.appName + "</p>";
-txt+= "<p>Browser Version: " + navigator.appVersion + "</p>";
-txt+= "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
-txt+= "<p>Platform: " + navigator.platform + "</p>";
-txt+= "<p>User-agent header: " + navigator.userAgent + "</p>";
-
-document.getElementById("example").innerHTML=txt;
-
-
+//document.getElementById("example").innerHTML=txt;
+document.getElementById("browsertyp").innerHTML="Du benutzt " + browser;
 
 $.ajax({
   type: 'POST',
   url: 'http://localhost:3000/usagerecords',
-  data: {usagerecord: {browser: navigator.appCodeName, language: navigator.language, fk_idHomepage: "3", timestamp: Date() }},
+  data: {usagerecord: {browser: browser, language: navigator.language, homepage: document.URL, timestamp: Date(), resolution: screen.height + "x" + screen.width }},
   success: document.getElementById("example").innerHTML='Deine Browser Daten wurden erfoglreich als Usage Record gepostet.',
   //error: document.getElementById("example").innerHTML='Es gab einen Fehler beim Versuch deine Daten zu posten',
   dataType: 'json'

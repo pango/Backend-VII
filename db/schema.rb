@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120226210824) do
+ActiveRecord::Schema.define(:version => 20120226221930) do
 
   create_table "artikel", :force => true do |t|
     t.string  "Bezeichnung"
@@ -172,6 +172,8 @@ ActiveRecord::Schema.define(:version => 20120226210824) do
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "homepage_id"
+    t.string   "homepage"
+    t.string   "resolution"
   end
 
   create_table "warenkorb", :force => true do |t|

@@ -5,7 +5,8 @@
     <th>Browser</th>
     <th>Language</th>
     <th>Timestamp</th>
-    <th>Fk idhomepage</th>
+    <th>URL</th>
+    <th>Resolution</th>
     <th></th>
     <th></th>
     <th></th>
@@ -16,7 +17,8 @@
     <td><%= usagerecord.browser %></td>
     <td><%= usagerecord.language %></td>
     <td><%= usagerecord.timestamp %></td>
-    <td><%= usagerecord.fk_idHomepage %></td>
+    <td><%= usagerecord.homepage %></td>
+    <td><%= usagerecord.resolution %></td>
     <td><%= link_to 'Show', usagerecord %></td>
     <td><%= link_to 'Edit', edit_usagerecord_path(usagerecord) %></td>
     <td><%= link_to 'Destroy', usagerecord, confirm: 'Are you sure?', method: :delete %></td>
