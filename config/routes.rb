@@ -7,6 +7,8 @@ BackendVII::Application.routes.draw do
 
   resources :webcalls
 
+  resources :frontends
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
