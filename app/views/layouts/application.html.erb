@@ -14,7 +14,7 @@
   
   <div id="header" class="container"> 
   <div id="logo" class="span-10"> 
-    <h1><a href="/" title="Home"><cufon class="cufon cufon-canvas" alt="Backend-VII " style="width: 203px; height: 36px; "><canvas width="229" height="37" style="width: 229px; height: 37px; top: 0px; left: -2px; "></canvas><cufontext>Backend-VII </cufontext></cufon><span></span></a></h1> 
+    <h1><a href="/" title="Home"><cufon class="cufon cufon-canvas" alt="Admin-VII " style="width: 203px; height: 36px; "><canvas width="229" height="37" style="width: 229px; height: 37px; top: 0px; left: -2px; "></canvas><cufontext>Admin-VII </cufontext></cufon><span></span></a></h1>
   </div> 
   <div class="span-14 last"> 
 	<ul id="navbar">
@@ -33,10 +33,23 @@
 	<div class="span-7">
 	  <div id="left_content_sub">
 		<ul id="subnavbar">
-		  <li><a href="/homepages/">Seiten Erfassen</a></li>
-		  <li><a href="/usagerecords/">Usage Eintragen</a></li>
-		  <li><a href="/events/">Event anlegen</a></li>
-		  <li><a href="/webcalls/">Webcall</a></li>
+		  <!--  <li><a href="/frontends/">Browser Chart</a></li>
+                  <li><a href="/resolutions/">Auflösung Chart</a></li>
+                  <li><a href="/pages/">Seiten Chart</a></li>
+                  <li><a href="/timelines/">Timeline Chart</a></li> -->
+
+                  <li><a href="">Server starten</a></li>
+                  <li><a href="">Server stoppen</a></li>
+
+                  <li><a href="">Benutzer anzeigen</a></li>
+                  <li><a href="">Neuen Benutzer erfassen</a></li>
+                  <li><a href="">Benutzer Löschen</a></li>
+
+                  <li><a href="">Usage Script anzeigen</a></li>
+                  <li><a href="">Usage Script herunterladen</a></li>
+
+                  <li><a href="/usagerecords/">Usage Daten bearbeiten</a></li>
+
 		</ul>
 	  </div>
 	</div>
@@ -45,16 +58,7 @@
    
     <div class="span-17 last">
       <div id="right_content_sub">
-        <h2>
-			
-				<%= yield %>
-			
-		</h2>
-
-
-
-
-
+        <%= yield %>
       </div>
     </div>
 
@@ -82,11 +86,11 @@
   <div id="footer" class="container clear">
   <div class="span-4">
     <ul>
-      <li><strong>Backend-VII</strong></li>
+      <li><strong>Admin-VII</strong></li>
       <li><a href="/about/">About</a></li>
 	  <li><a href="/blog/">Blog</a></li>
       <li><a href="/news/">News</a></li>
-      <li><a href="/downloads/">Download</a></li>
+      <li><a href="/downloads/">Impressum</a></li>
     </ul>
   </div>
   <div class="span-4">

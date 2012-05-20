@@ -77,7 +77,7 @@ div#logo h1 span {
 	left:0;
 	top:0;
 	z-index:1;
-	background:url(/logo.png) top left no-repeat;
+	background:url(/logo-admin.png) top left no-repeat;
 	width: 555px;
 	height: 82px;
 }
@@ -94,7 +94,7 @@ div#right_content_sub h2 {
 	background: #ffffff url(../images/bg.png) repeat-x top left;
 }
 #page-sub {
-	background: #ffffff url(../images/bg_sub.png) repeat-x top left;
+	background: #ffffff url(../images/bg_sub_red.png) repeat-x top left;
 }
 div#header {
 	height: 85px;

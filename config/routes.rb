@@ -1,5 +1,9 @@
 BackendVII::Application.routes.draw do
+  resources :users
+
   resources :usagerecords
+
+  resources :resolutions
 
   resources :homepages
 
@@ -8,6 +12,10 @@ BackendVII::Application.routes.draw do
   resources :webcalls
 
   resources :frontends
+
+  resources :pages
+
+  resources :timelines
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

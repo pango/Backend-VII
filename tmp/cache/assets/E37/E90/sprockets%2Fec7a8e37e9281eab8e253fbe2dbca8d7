@@ -1,17 +1,17 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1327009677.515625:@value{I"
-class:EFI"BundledAsset;
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336593871.510742:@value{I"
+class:ETI"BundledAsset;
 FI"id;
-F"%6ca46417d319c39a2da2e5867454ce0fI"logical_path;
-FI"site.8;
+T"%569e2eda89d117c89ea1432907bdf7a5I"logical_path;
+TI"site.8;
 TI"pathname;
-FI",$root/app/assets/stylesheets/site.8.css;
-FI"content_type;
-FI"text/css;
-FI"
+TI",$root/app/assets/stylesheets/site.8.css;
+TI"content_type;
+TI"text/css;
+TI"
 mtime;
-FI"2012-01-19T22:47:56+01:00;
-FI"	body;
-FI"4 /* Basic ------------------------------------------------------------------- */
+TI"2012-05-09T22:04:28+02:00;
+TI"	body;
+TI"> /* Basic ------------------------------------------------------------------- */
 
 
 body {
@@ -91,7 +91,7 @@ div#logo h1 span {
 	left:0;
 	top:0;
 	z-index:1;
-	background:url(/logo.png) top left no-repeat;
+	background:url(/logo-admin.png) top left no-repeat;
 	width: 555px;
 	height: 82px;
 }
@@ -108,7 +108,7 @@ div#right_content_sub h2 {
 	background: #ffffff url(../images/bg.png) repeat-x top left;
 }
 #page-sub {
-	background: #ffffff url(../images/bg_sub.png) repeat-x top left;
+	background: #ffffff url(../images/bg_sub_red.png) repeat-x top left;
 }
 div#header {
 	height: 85px;
@@ -429,14 +429,14 @@ li.sevenz { list-style-image:url("../images/sevenz_16x16.png"); list-style-posit
 li.chksum { list-style-image:url("../images/chksum_16x16.png"); list-style-position:inside; }
 li.sfx { list-style-image:url("../images/sfx_24x19.png"); list-style-position:inside; }
 ;
-FI"asset_paths;
-F[I",$root/app/assets/stylesheets/site.8.css;
-FI"dependency_paths;
-F[{I"	path;
-FI",$root/app/assets/stylesheets/site.8.css;
-FI"
+TI"asset_paths;
+T[I",$root/app/assets/stylesheets/site.8.css;
+TI"dependency_paths;
+T[{I"	path;
+TI",$root/app/assets/stylesheets/site.8.css;
+TI"
 mtime;
-FIu:	TimeuÄ  Äø:@_zoneI"Mitteleurop√µische Zeit;
-T:offsetiI"hexdigest;
-F"%1b0bffb3a3a1b1375c3971b4adf2e66fI"_version;
-F"%46dde6621c301f4928e3b34efee9e3b5
+TIu:	Time4Ä  ¿:@_zoneI""Mitteleurop√µische Sommerzeit;
+T:offseti I"hexdigest;
+T"%fac5ccb7d6c7e8b22344d7613460c21bI"_version;
+T"%46dde6621c301f4928e3b34efee9e3b5

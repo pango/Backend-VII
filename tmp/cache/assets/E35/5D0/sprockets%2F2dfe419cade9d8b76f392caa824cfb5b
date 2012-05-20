@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1332114362.86914:@value{	I"length:ETiÊ
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1332117555.757812:@value{	I"length:ETiÉ
 I"digest;
-T"%293366aeb82e127a4c66de68de77efe3I"source;
-TI"Ê
+T"%79ca3d072070fa134eaf75154e43a6e1I"source;
+TI"É
 /* 
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
@@ -43,7 +43,7 @@ Ext.onReady(function () {
         panel1 = Ext.create('widget.panel', {
         width: 800,
         height: 600,
-        title: 'Semester Trends',
+        title: 'Browser Trends',
         renderTo: 'kuchen',
         layout: 'fit',
         tbar: [{
@@ -108,4 +108,4 @@ Ext.onReady(function () {
 
 ;
 TI"_version;
-T"%446f903b5b8e59197f9b43e9cfb53222
+T"%c2febb83701b264d4af2eb9c880d28e8
