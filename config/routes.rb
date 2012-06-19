@@ -1,20 +1,25 @@
 BackendVII::Application.routes.draw do
+  get 'admin' => 'admin#index'
+
+  controller :sessions do
+    get 'login' => :new
+    post 'login' => :create
+    delete 'logout' => :destroy
+  end
+
+  controller :scripts do
+    get 'scripts/show' => :show
+    get 'scripts/download' => :download
+  end
+  
   resources :users
-
   resources :usagerecords
-
   resources :resolutions
-
   resources :homepages
-
   resources :events
-
   resources :webcalls
-
   resources :frontends
-
   resources :pages
-
   resources :timelines
 
   # The priority is based upon order of creation:

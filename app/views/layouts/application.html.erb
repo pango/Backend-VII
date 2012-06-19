@@ -10,10 +10,20 @@
 
 <body>
 
-<div id="page-sub">
+  <%  unless session[:user_id] %>
+    <div id="page-sub">
+  <% else %>
+    <div id="page-sub-admin">
+  <% end %>
   
   <div id="header" class="container"> 
-  <div id="logo" class="span-10"> 
+  
+  <%  unless session[:user_id] %>
+    <div id="logo" class="span-10"> 
+  <% else %>
+    <div id="logo-admin" class="span-10"> 
+  <% end %>
+
     <h1><a href="/" title="Home"><cufon class="cufon cufon-canvas" alt="Admin-VII " style="width: 203px; height: 36px; "><canvas width="229" height="37" style="width: 229px; height: 37px; top: 0px; left: -2px; "></canvas><cufontext>Admin-VII </cufontext></cufon><span></span></a></h1>
   </div> 
   <div class="span-14 last"> 
@@ -23,7 +33,7 @@
 </div>
   
     <div id="graphic_sub" class="container clear">
-  <div class="span-15">
+    <div class="span-15">
     <h1><cufon class="cufon cufon-canvas" alt="Add-ons" style="width: 121px; height: 33px; "><canvas width="139" height="34" style="width: 139px; height: 34px; top: 0px; left: -1px; "></canvas><cufontext>Add-ons</cufontext></cufon></h1>
   </div>
   <div class="span-9 last"> </div>
@@ -33,22 +43,26 @@
 	<div class="span-7">
 	  <div id="left_content_sub">
 		<ul id="subnavbar">
-		  <!--  <li><a href="/frontends/">Browser Chart</a></li>
+                  <% unless session[:user_id] %>
+		  <li><a href="/frontends/">Browser Chart</a></li>
                   <li><a href="/resolutions/">Auflösung Chart</a></li>
                   <li><a href="/pages/">Seiten Chart</a></li>
-                  <li><a href="/timelines/">Timeline Chart</a></li> -->
+                  <li><a href="/timelines/">Timeline Chart</a></li>
+                  <% end %>
 
-                  <li><a href="">Server starten</a></li>
-                  <li><a href="">Server stoppen</a></li>
 
-                  <li><a href="">Benutzer anzeigen</a></li>
-                  <li><a href="">Neuen Benutzer erfassen</a></li>
-                  <li><a href="">Benutzer Löschen</a></li>
+                  <% if session[:user_id] %>
+                    
+                    <li><a href="/users/">Benutzer anzeigen</a></li>
+                    <li><a href="/users/new">Neuen Benutzer erfassen</a></li>
+                    
+                    <li><a href="/scripts/show">Usage Script anzeigen</a></li>
+                    <li><a href="/scripts/download">Usage Script herunterladen</a></li>
 
-                  <li><a href="">Usage Script anzeigen</a></li>
-                  <li><a href="">Usage Script herunterladen</a></li>
+                    <li><a href="/usagerecords/">Usage Daten bearbeiten</a></li>
 
-                  <li><a href="/usagerecords/">Usage Daten bearbeiten</a></li>
+                    <%= button_to 'Logout', logout_path, method: :delete %>
+                  <% end %>
 
 		</ul>
 	  </div>

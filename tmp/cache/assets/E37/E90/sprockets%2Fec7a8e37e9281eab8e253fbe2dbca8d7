@@ -1,7 +1,7 @@
-o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1336593871.510742:@value{I"
+o: ActiveSupport::Cache::Entry	:@compressedF:@expires_in0:@created_atf1337629101.750976:@value{I"
 class:ETI"BundledAsset;
 FI"id;
-T"%569e2eda89d117c89ea1432907bdf7a5I"logical_path;
+T"%bf97610544304cd40c01a5b5fa064748I"logical_path;
 TI"site.8;
 TI"pathname;
 TI",$root/app/assets/stylesheets/site.8.css;
@@ -9,9 +9,9 @@ TI"content_type;
 TI"text/css;
 TI"
 mtime;
-TI"2012-05-09T22:04:28+02:00;
+TI"2012-05-21T21:38:19+02:00;
 TI"	body;
-TI"> /* Basic ------------------------------------------------------------------- */
+TI"^!/* Basic ------------------------------------------------------------------- */
 
 
 body {
@@ -91,6 +91,18 @@ div#logo h1 span {
 	left:0;
 	top:0;
 	z-index:1;
+	background:url(/logo-client.png) top left no-repeat;
+	width: 555px;
+	height: 82px;
+}
+div#logo-admin h1 span {
+	margin: 0;
+	padding: 0;
+	display:block;
+	position: absolute;
+	left:0;
+	top:0;
+	z-index:1;
 	background:url(/logo-admin.png) top left no-repeat;
 	width: 555px;
 	height: 82px;
@@ -108,8 +120,12 @@ div#right_content_sub h2 {
 	background: #ffffff url(../images/bg.png) repeat-x top left;
 }
 #page-sub {
+	background: #ffffff url(../images/bg_sub.png) repeat-x top left;
+}
+#page-sub-admin {
 	background: #ffffff url(../images/bg_sub_red.png) repeat-x top left;
 }
+
 div#header {
 	height: 85px;
 }
@@ -128,7 +144,7 @@ div#right_content {
 	padding-top: 32px;
 }
 div#right_content_sub {
-	padding: 32px 0 20px 40px;
+	padding: 0px 0px 0px 0px;
 }
 ul#navbar {
 	list-style: none;
@@ -436,7 +452,7 @@ T[{I"	path;
 TI",$root/app/assets/stylesheets/site.8.css;
 TI"
 mtime;
-TIu:	Time4Ä  ¿:@_zoneI""Mitteleurop√µische Sommerzeit;
+TIu:	Time≥Ä  0ô:@_zoneI""Mitteleurop√µische Sommerzeit;
 T:offseti I"hexdigest;
-T"%fac5ccb7d6c7e8b22344d7613460c21bI"_version;
+T"%fcb07fd2b34722a835824604d8917302I"_version;
 T"%46dde6621c301f4928e3b34efee9e3b5

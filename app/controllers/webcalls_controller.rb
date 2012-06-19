@@ -1,4 +1,6 @@
 class WebcallsController < ApplicationController
+  skip_before_filter :authorize
+  
   # GET /webcontrollers
   # GET /webcontrollers.json
   def index
